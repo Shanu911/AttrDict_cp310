@@ -15,12 +15,12 @@ except:
 
 
 setup(
-    name="attrdict",
-    version="2.0.1",
+    name="attrdict_cp310",
+    version="2.0.2",
     author="Brendan Curran-Johnson",
     author_email="brendan@bcjbcj.ca",
-    packages=("attrdict",),
-    url="https://github.com/bcj/AttrDict",
+    packages=("attrdict_cp310",),
+    url="https://github.com/Shanu911/AttrDict_cp310",
     license="MIT License",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
@@ -31,6 +31,7 @@ setup(
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10"
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ),
